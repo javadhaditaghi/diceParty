@@ -21,7 +21,3 @@ I created a web-based dice game called "Dice Party" using HTML, CSS, and JavaScr
 - For future improvements, I should consider adding comments to clarify complex logic and implementing error handling to manage unexpected user interactions, which would enhance the code's readability and reliability.
   
 In summary, "Dice Party" is a functional dice game with intuitive gameplay and an appealing design. With some additional documentation and error handling, it can further elevate the gaming experience for users.
-
---- 
-
-This review summarizes the code's structure and functionality, providing insight into its strengths and potential areas for improvement, as seen from the perspective of the programmer who developed the game.
