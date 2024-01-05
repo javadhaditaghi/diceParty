@@ -1,7 +1,3 @@
-Certainly! Here's a review of the code I've written for the "Dice Party" game:
-
----
-
 I created a web-based dice game called "Dice Party" using HTML, CSS, and JavaScript. The game allows players to choose between multiplayer and single-player modes.
 
 ### HTML Structure:
