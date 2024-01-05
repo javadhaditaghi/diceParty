@@ -1,0 +1,172 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+
+/* ------------------------Modal ---------------------------- */
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  color: #4ECCA3;
+}
+
+.modal-btn {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #9c060c;
+  color: #fff;
+}
+
+.modal-btn:hover {
+  background-color: #350002;
+}
+
+
+/* --------------------dice Party --------------------------- */
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+.dice img {
+  cursor: pointer;
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 25px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+#mode {
+  margin: 0 !important;
+  color: #9c060c !important;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+#result {
+  color: #010101;
+  font-size: 36px;
+  padding: 20px 10px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: white;
+  margin: 30px 70px;
+  border-radius: 10px;
+}
+
+#scoreResult {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playerscore {
+  background-color: white;
+  padding: 14px 20px;
+  margin: 0 10px;
+  font-size: 44px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+#singlePlayer {
+  display: none;
+}
+
+#scoreResult span {
+  margin: 3px;
+  text-align: center;
+  display: block;
+  color: white;
+}
+
+/* ----------------Responsive --------------------- */
+
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  .modal-content {
+    background-color: #fff;
+    margin: 60% 8%;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+  }
+
+  #result {
+    color: #010101;
+    font-size: 20px;
+    padding: 20px 10px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: white;
+    margin: 30px 20px;
+    border-radius: 10px;
+  }
+
+  .multi,
+  .single {
+    display: flex !important;
+  }
+}

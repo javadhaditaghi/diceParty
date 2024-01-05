@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dicee</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+</head>
+
+<body>
+  <audio id="welcome" hidden>
+
+    <source src="sounds/welcome.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <audio id="interface-welcome" hidden>
+
+    <source src="sounds/interface-welcome.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <h2>Choose Game Mode</h2>
+      <button class="modal-btn" id="multiplayerBtn">Multiplayer</button>
+      <button class="modal-btn" id="singlePlayerBtn">Single Player</button>
+    </div>
+  </div>
+
+
+
+  <audio id="myAudio" hidden>
+
+    <source src="sounds/dice.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+
+  <div class="container">
+    <h1>Dice Party</h1>
+    <p id="mode"></p>
+
+    <div id="multiPlayer">
+      <div class="multi">
+        <div class="dice">
+          <p>Player 1</p>
+          <img id="dice1" class="img1 audio" src="images/dice1.png" onclick="rollDice(1)">
+        </div>
+
+        <div class="dice">
+          <p>Player 2</p>
+          <img id="dice2" class="img2 audio" src="images/dice1.png" onclick="rollDice(2)">
+        </div>
+      </div>
+    </div>
+
+    <div id="singlePlayer">
+      <div class="single">
+        <div class="dice">
+          <p>Player</p>
+          <img id="dice_1" class="img1 singleImg audio" src="images/dice1.png">
+        </div>
+
+        <div class="dice">
+          <p>Computer</p>
+          <img id="dice_2" class="img2 singleImg audio" src="images/dice1.png">
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <div id="result">Game Information Will be Here</div>
+
+  <div id="scoreResult">
+    <div>
+      <span>Player I</span>
+      <div id="playerscore1" class="playerscore">0</div>
+    </div>
+    <div>
+      <span>Tie</span>
+      <div id="tiescore" class="playerscore">0</div>
+    </div>
+    <div>
+      <span>Player II</span>
+      <div id="playerscore2" class="playerscore">0</div>
+    </div>
+
+
+  </div>
+
+
+</body>
+
+
+
+<script src="javascript.js"></script>
+
+</html>
