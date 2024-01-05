@@ -20,4 +20,4 @@ I created a web-based dice game called "Dice Party" using HTML, CSS, and JavaScr
 - CSS styling enhanced the overall user interface, making it visually appealing and adaptable to different screen sizes.
 - For future improvements, I should consider adding comments to clarify complex logic and implementing error handling to manage unexpected user interactions, which would enhance the code's readability and reliability.
   
-In summary, "Dice Party" is a functional dice game with intuitive gameplay and an appealing design. With some additional documentation and error handling, it can further elevate the gaming experience for users.
+
